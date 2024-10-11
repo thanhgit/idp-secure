@@ -1,6 +1,6 @@
 {
   "name": "@thanhgit/idp-secure",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Node.js sops age decryption",
   "repository": "thanhgit/idp-secure",
   "license": "MIT",
@@ -12,6 +12,7 @@
   "type": "module",
   "files": [
     "dist/",
+    "index.d.ts",
     "package.json",
     "LICENSE.md",
     "README.md"
