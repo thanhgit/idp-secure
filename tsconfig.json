@@ -13,6 +13,6 @@
     "target": "ES2022",
     "noImplicitAny": false
   },
-  "include": ["src", "src/sops-file.ts", "index.d.ts"],
-  "exclude": ["node_modules", "test"]
+  "include": ["src", "index.d.ts"],
+  "exclude": ["node_modules"]
 }

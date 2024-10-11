@@ -1,13 +1,13 @@
 {
   "name": "@thanhgit/idp-secure",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Node.js sops age decryption",
   "repository": "thanhgit/idp-secure",
   "license": "MIT",
   "author": {
     "name": "Thanh Nguyen"
   },
-  "main": "dist/index.mjs",
+  "main": "dist/index.cjs",
   "types": "dist/index.d.ts",
   "files": [
     "dist/",
