@@ -9,14 +9,12 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 
-import { createRequire } from 'node:module';
 import { createDecipheriv } from "crypto";
-import type { SOPS } from "./sops-file.js";
+import type { SOPS } from "./sops-file";
+import get from 'lodash-es/get';
+import cloneDeep from 'lodash-es/cloneDeep';
 
-import { decryptAgeEncryptionKey, getPublicAgeKey } from "./age.js";
-const require = createRequire(import.meta.url);
-const cloneDeep = require("lodash-es/cloneDeep.js");
-const get = require("lodash-es/get.js");
+import { decryptAgeEncryptionKey, getPublicAgeKey } from "./age";
 
 async function getSopsEncryptionKeyForRecipient(sops: SOPS, secretKey: string) {
   const pubKey = await getPublicAgeKey(secretKey);

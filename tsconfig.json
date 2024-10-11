@@ -3,8 +3,7 @@
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "commonjs",
     "noEmit": true,
     "outDir": "dist",
     "resolveJsonModule": true,
@@ -14,5 +13,6 @@
     "target": "ES2022",
     "noImplicitAny": false
   },
-  "include": ["src", "src/sops-file.ts", "index.d.ts"]
+  "include": ["src", "src/sops-file.ts", "index.d.ts"],
+  "exclude": ["node_modules", "test"]
 }

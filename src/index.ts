@@ -1,2 +1,2 @@
-export * from "./decrypt.js";
-export * from "./sops-file.js";
+export * from "./decrypt";
+export * from "./sops-file";
