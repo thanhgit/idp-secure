@@ -1,7 +1,6 @@
 import { createDecipheriv } from "crypto";
 import type { SOPS } from "./sops-file";
-import get from 'lodash-es/get';
-import cloneDeep from 'lodash-es/cloneDeep';
+import { get, cloneDeep } from 'lodash-es';
 
 import { decryptAgeEncryptionKey, getPublicAgeKey } from "./age";
 
