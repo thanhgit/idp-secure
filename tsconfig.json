@@ -14,5 +14,5 @@
     "target": "ES2022",
     "noImplicitAny": false
   },
-  "include": ["src", "src/sops-file.ts", "modules.d.ts"]
+  "include": ["src", "src/sops-file.ts", "index.d.ts"]
 }
